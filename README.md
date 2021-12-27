@@ -29,5 +29,33 @@ Resulting compressed-and-uncompressed audio waves
 For simplicity, we iterate over the vector, window-by-window, but we discard whatever remainder exists:
 Now we plot the time domain signals
 
-![alt text](/Capture.png)
+![alt text](/Capture.PNG)
 
+However, closer inspection does reveal qualitative differences in the densely packed regions (high frequencies).
+A look at the spectrogram reveals a clear idea of the loss of high frequencies.
+
+![alt text](/Capture2.PNG)
+
+The qualitative difference is clearly apparent when listening to the audio files
+Saving the files and viewing the difference in size
+
+
+CODE
+
+%read a file and convert it to a vector
+
+%chosing a block size
+
+%changing compression  percentages
+
+%initializing compressed matrice
+
+%actual compression
+
+%plotting audio signals
+
+%expanded view of audio signals
+
+%spectrogram of audio signals
+
+%playing files
